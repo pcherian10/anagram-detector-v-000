@@ -6,7 +6,11 @@ def initialize (word)
 end
 
 def match (test_array)
-  test_array.map {|test_word| test_word if @word.sort == test_word.sort}
+  test_array.map do |test_word|
+    test_word.split("")
+
+
+    if @word.sort == test_word.sort}
 end
 
 end
