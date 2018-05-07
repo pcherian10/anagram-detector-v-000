@@ -6,7 +6,7 @@ def initialize (word)
 end
 
 def match (test_array)
-  test_array.split(" ").each  {|test_word| test_word if @word.sort == test_word.sort}
+  test_array.map {|test_word| test_word if @word.sort == test_word.sort}
 end
 
 end
