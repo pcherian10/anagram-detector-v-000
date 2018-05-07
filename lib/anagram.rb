@@ -7,6 +7,6 @@ def initialize (word)
 end
 
 def match (test_array)
-  test_array
+  test_array test_array.split(" ")
 
 end
