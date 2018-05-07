@@ -1,10 +1,12 @@
 class Anagram
 
-attr_accessor :
+attr_accessor :word
 
-def match
-
+def initialize (word)
+  @word = word
 end
 
+def match (test_array)
+  test_array
 
 end
