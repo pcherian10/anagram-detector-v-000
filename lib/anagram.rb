@@ -7,7 +7,8 @@ def initialize (word)
 end
 
 def match (test_array)
-  test_array.split(" ")
+  test_array.each do |test_word|
+
 
 end
 
