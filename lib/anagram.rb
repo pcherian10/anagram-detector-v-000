@@ -6,7 +6,7 @@ def initialize (word)
 end
 
 def match (test_array)
-  (test_array.map {|test_word| test_word if test_word.split("").sort == @word.sort}).uniq
+  (test_array.map {|test_word| test_word if test_word.split("").sort == @word.sort}).select {|item| !nil}
 end
 
 end
